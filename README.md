@@ -1,35 +1,19 @@
-# Starter Next.js JavaScript
+# NFT Minting Website
+This repo shows you how to create a NFT minting website using only Javascript. NFT are native assets on Cardano which means you don't need a smart contract to interact with it.  
+//demo video here
 
-Start a new project on Next.js. This starter template consists of a connect wallet button and wallet integration.
-      
-## Getting Started
 
-Start project locally using CLI:
 
-```bash
-npx create-mesh-app starter-next-js-template
-```
+## Link to youtube video 
+This youtube video shows you how you can build the exact same thing in under 20 minutes. 
 
-Start your project on [Demeter](https://demeter.run/):
+## Link to live website 
 
-[![Code in Cardano Workspace](https://demeter.run/code/badge.svg)](https://demeter.run/code?repository=https://github.com/MeshJS/starter-next-js-template.git&template=typescript)
+## Stacks Used
+Next.js  (Framework)
+Tailwind (Styling)
+Mesh.js  (Library use to create NFT)
 
-## Learn More
-
-### [React components and hooks](https://meshjs.dev/react)
-
-Frontend components for wallet connections, and useful React hooks to getting wallet states - Mesh provides everything you need to bring your Web3 user interface to life.
-
-### [APIs](https://meshjs.dev/apis)
-
-From wallet integrations to transaction builders, Mesh makes Web3 development easy with reliable, scalable, and well-engineered APIs & developer tools.
-
-### [Guides](https://meshjs.dev/guides)
-
-Whether you are new to web development or a seasoned blockchain full-stack developer, these guides will help you get started.
-
-## Connect with us
-
-Follow us on [Twitter](https://twitter.com/meshsdk) for updates.
-
-Join our [Discord](https://discord.gg/Z6AH9dahdH) for any questions and suggestions.
+## Donations
+Donations are appreciated.lol 
+addr1q93q7xj0t56zkprcrazca9lknghrmtjk8vgz0nldrec67gln8df7mlcw5kv8ay6vpewqalu8ktqmtt5696mp4nt4js0q48e9w3
