@@ -1,5 +1,5 @@
 # NFT Minting Website
-This repo shows you how to create a NFT minting website using only Javascript. NFT are native assets on Cardano which means you don't need a smart contract to interact with it.  
+This repo shows you how to create a NFT minting website using only Javascript. NFT are native assets on Cardano which means you don't need a smart contract to interact with it. It is totally possible to 
 //demo video here
 
 
