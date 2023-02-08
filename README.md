@@ -8,6 +8,7 @@ This repo shows you how to create a NFT minting website using only Javascript. N
 This youtube video shows you how you can build the exact same thing in under 20 minutes. 
 
 ## Link to live website 
+https://nft-minting-website-lilac.vercel.app/
 
 ## Stacks Used
 Next.js  (Framework) <br />
