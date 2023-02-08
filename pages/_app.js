@@ -1,5 +1,5 @@
-import "../styles/globals.css";
 import { MeshProvider } from "@meshsdk/react";
+import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
