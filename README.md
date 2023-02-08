@@ -10,9 +10,9 @@ This youtube video shows you how you can build the exact same thing in under 20 
 ## Link to live website 
 
 ## Stacks Used
-/n Next.js  (Framework)
-/n Tailwind (Styling)
-/n Mesh.js  (Library use to create NFT)
+Next.js  (Framework) <br />
+Tailwind (Styling) <br />
+Mesh.js  (Library use to create NFT)
 
 ## Donations
 Donations are appreciated.lol 
