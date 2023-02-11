@@ -1,12 +1,7 @@
-import { MeshProvider } from "@meshsdk/react";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
-  return (
-    <MeshProvider>
-      <Component {...pageProps} />
-    </MeshProvider>
-  );
+  return <Component {...pageProps} />;
 }
 
 export default MyApp;
