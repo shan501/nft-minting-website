@@ -44,14 +44,10 @@ export default function Home() {
   };
 
   return (
-    <div
-      className="flex h-screen w-screen"
-      style={{
-        backgroundImage: `url(${image.src})`,
-      }}
-    >
-      <div class="m-auto">
-        <div className="w-[500px] h-[500px] bg-gray-900 p-5 rounded border-double">
+    <div className="flex h-screen w-screen">
+      <Image src={image} fill className="z-0" />
+      <div className="m-auto z-10">
+        <div className="w-[500px] h-[500px] bg-gray-900 p-5 rounded shadow-lg shadow-blue-300">
           <div className="flex justify-between">
             <div>
               <label class="mb-2 text-sm font-medium text-gray-900 dark:text-white">
@@ -72,30 +68,34 @@ export default function Home() {
               />
             </div>
           </div>
-          <label
-            for="small-input"
-            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-          >
+          <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
             IPFS Image Link
           </label>
           <input
             type="text"
-            id="small-input"
             className="text-sm rounded-lg block bg-gray-700 border-gray-600 text-white p-2 mb-5 w-full"
           />
-          <label
-            for="small-input"
-            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-          >
+          <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
             Wallet Address of recipient
           </label>
           <input
             type="text"
-            id="small-input"
             className="text-sm rounded-lg block bg-gray-700 border-gray-600 text-white p-2 mb-5 w-full"
           />
+          <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+            Description
+          </label>
+          <input
+            type="text"
+            className="text-sm rounded-lg block bg-gray-700 border-gray-600 text-white p-2 mb-5 w-full h-[100px]"
+          />
           <div className="flex justify-end">
-            <button onClick={mintAsset}>Mint NFT</button>
+            <button
+              class="text-white bg-gray-800 hover:bg-gray-900 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:hover:bg-gray-700"
+              onClick={mintAsset}
+            >
+              Mint NFT
+            </button>
           </div>
         </div>
       </div>
