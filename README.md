@@ -1,8 +1,7 @@
 # NFT Minting Website
-This repo shows you how to create a NFT minting website using only Javascript. NFT are native assets on Cardano which means you don't need a smart contract to interact with it. It is totally possible to 
+This repo allows you to mint NFTs across multiple blockchains
+
 //demo video here
-
-
 
 ## Link to youtube video 
 This youtube video shows you how you can build the exact same thing in under 20 minutes. 
@@ -13,7 +12,7 @@ https://nft-minting-website-lilac.vercel.app/
 ## Stacks Used
 Next.js  (Framework) <br />
 Tailwind (Styling) <br />
-Mesh.js  (Library use to create NFT)
+Mesh.js  (Library use to create Cardano NFT)
 
 ## Donations
 Donations are appreciated.lol 
